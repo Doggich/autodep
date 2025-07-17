@@ -2,12 +2,6 @@
 
 Automatically install missing Python modules when they are imported.
 
-## Installation
-
-```bash
-pip install autodep
-```
-
 ## Usage
 
 ### As a decorator
@@ -27,4 +21,10 @@ def my_function():
 from autodep import dofile
 
 dofile("path/to/your_script.py")
+```
+
+### Install dependencies
+
+```bash
+pip install -r requirements.txt
 ```
