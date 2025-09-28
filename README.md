@@ -15,7 +15,7 @@ def my_function():
     ...
 ```
 
-## Execute a script file
+### Execute a script file
 
 ```python
 from autodep import dofile
@@ -23,7 +23,7 @@ from autodep import dofile
 dofile("path/to/your_script.py")
 ```
 
-### Installation
+## Installation
 
 1.1. Clone repo:
 
