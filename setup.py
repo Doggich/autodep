@@ -9,8 +9,8 @@ setup(
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
     author='Doogich',
-    author_email='your.email@example.com',
-    url='https://github.com/yourusername/autodep',
+    author_email='dogglyg01@gmail.com',
+    url='https://github.com/Dogich/autodep',
     classifiers=[
         'Programming Language :: Python :: 3',
         'License :: OSI Approved :: MIT License',
