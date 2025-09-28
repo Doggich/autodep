@@ -15,7 +15,7 @@ def my_function():
     ...
 ```
 
-—-
+---
 
 ### Execute a script file
 
@@ -25,7 +25,7 @@ from autodep import dofile
 dofile("path/to/your_script.py")
 ```
 
-—-
+---
 
 ### Installation
 
@@ -59,5 +59,3 @@ python3 -m venv venv
 ```bash
 source venv/bin/activate
 ```
-
----
