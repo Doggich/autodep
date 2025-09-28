@@ -21,10 +21,38 @@ def my_function():
 from autodep import dofile
 
 dofile("path/to/your_script.py")
-```
 
-### Install dependencies
+### Installation
+
+1.1. Clone repo:
 
 ```bash
-pip install -r requirements.txt
+git clone https://github.com/Doggich/autodep.git
+cd autodep
 ```
+
+1.2. Make `venv` for Python 3.X:
+
+#### Windows
+```bash
+python -m venv venv
+```
+
+#### Linux/masOS
+```bash
+python3 -m venv venv
+```
+
+1.3. Activate `venv`:
+
+#### Windows
+```bash
+.\venv\Scripts\activate
+```
+
+#### Linux/masOS
+```bash
+source venv/bin/activate
+```
+
+---
